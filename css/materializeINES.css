@@ -563,10 +563,10 @@
     color: #2962FF !important
 }
 .light-blue {
-    background-color: transparent !important
+    background-color: red !important
 }
 .light-blue-text {
-    color: #03a9f4 !important
+    color: red !important
 }
 .light-blue.lighten-5 {
     background-color: #e1f5fe !important
