@@ -1,0 +1,506 @@
+<style type="text/css">
+.form-style-5{
+    max-width: 500px;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    margin: 10px auto;
+    padding: 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form-style-5 fieldset{
+    border: none;
+}
+.form-style-5 legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+.form-style-5 label {
+    display: block;
+    margin-bottom: 8px;
+}
+.form-style-5 input[type="text"],
+.form-style-5 input[type="date"],
+.form-style-5 input[type="datetime"],
+.form-style-5 input[type="email"],
+.form-style-5 input[type="number"],
+.form-style-5 input[type="search"],
+.form-style-5 input[type="time"],
+.form-style-5 input[type="url"],
+.form-style-5 textarea,
+.form-style-5 select {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #e8eeef;
+    color:#8a97a0;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+
+}
+.form-style-5 input[type="text"]:focus,
+.form-style-5 input[type="date"]:focus,
+.form-style-5 input[type="datetime"]:focus,
+.form-style-5 input[type="email"]:focus,
+.form-style-5 input[type="number"]:focus,
+.form-style-5 input[type="search"]:focus,
+.form-style-5 input[type="time"]:focus,
+.form-style-5 input[type="url"]:focus,
+.form-style-5 textarea:focus,
+.form-style-5 select:focus{
+    background: #d2d9dd;
+}
+
+.form-style-5 select{
+    -webkit-appearance: menulist-button;
+    height:35px;
+}
+.form-style-5 .number {
+    background: #1abc9c;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 15px 15px 15px 0px;
+}
+
+.form-style-5 input[type="submit"],
+.form-style-5 input[type="button"],
+.form-style-5 button[type="submit"]
+{
+    position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #f7f244;
+    margin: 0 auto;
+    background: #e33d31;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border: 1px solid #f7f244;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+}
+.form-style-5 input[type="submit"]:hover,
+.form-style-5 input[type="button"]:hover
+{
+    background: #109177;
+}
+/*---------------*/
+@import url(http://fonts.googleapis.com/css?family=Roboto:300);
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto;
+  background-color: #eee;
+}
+
+section {
+  position: relative;
+  width: 400px;
+  background-color: #fff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  margin: 20px auto;
+  border-radius: 2px;
+}
+
+.header {
+  width: 100%;
+  height: 250px;
+  background-color: #e33d31;
+  overflow: hidden;
+}
+
+.header .circle {
+  position: relative;
+  top: 20px;
+  left: 175px;
+  width: 50px;
+  height: 50px;
+  background-color: #f1c40f;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  z-index: 10;
+}
+.header h1 {
+  position: relative;
+  top: 10px;
+  left: 250px;
+  font-size: 2.5em;
+  color: #fff;
+  border-bottom: 1px solid #f1c40f;
+}
+.headerEvent {
+  width: 100%;
+  height: 250px;
+  background-color: #f7f244;
+  overflow: hidden;
+}
+.headerEvent .circle {
+  position: relative;
+  top: 20px;
+  left: 175px;
+  width: 50px;
+  height: 50px;
+  background-color: #f1c40f;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  z-index: 10;
+}
+.headerEvent h1 {
+  position: relative;
+  top: 10px;
+  left: 250px;
+  font-size: 2.5em;
+  color: #fff;
+  border-bottom: 1px solid #f1c40f;
+}
+.headerInternship {
+  width: 100%;
+  height: 250px;
+  background-color: #23b912;
+  overflow: hidden;
+}
+.headerInternship .circle {
+  position: relative;
+  top: 20px;
+  left: 175px;
+  width: 50px;
+  height: 50px;
+  background-color: #f1c40f;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  z-index: 10;
+}
+.headerInternship h1 {
+  position: relative;
+  top: 10px;
+  left: 250px;
+  font-size: 2.5em;
+  color: #fff;
+  border-bottom: 1px solid #f1c40f;
+}
+
+.headerAdherent {
+  width: 100%;
+  height: 250px;
+  background-color: #23b912;
+  overflow: hidden;
+}
+.headerAdherent .circle {
+  position: relative;
+  top: 20px;
+  left: 175px;
+  width: 50px;
+  height: 50px;
+  background-color: #f1c40f;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  z-index: 10;
+}
+.headerAdherent h1 {
+  position: relative;
+  top: 10px;
+  left: 250px;
+  font-size: 2.5em;
+  color: #fff;
+  border-bottom: 1px solid #f1c40f;
+}
+.line {
+  position: absolute;
+  z-index: 0;
+  top: 50px;
+  left: 85px;
+  height: calc(100% + 200px);
+  width: 0px;
+  border-right: 1px solid #f1c40f;
+}
+/*contentNews*/
+#content {
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  padding-top: 20px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#content::-webkit-scrollbar {
+  width: 6px;
+  background-color: #EBEBEB;
+}
+#content::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+}
+#content .object {
+  width: 100%;
+}
+#content .object:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}
+#content .object .date {
+  float: left;
+  width: 160px;
+  height: 40px;
+  margin: 20px;
+  background-color: #f1c40f;
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 1em;
+  font-size: 1em;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+}
+#content .object .circle {
+  position: relative;
+  float: left;
+  z-index: 10;
+  margin: 30px 0 0 -10px;
+  width: 20px;
+  height: 20px;
+  background-color: #23b912;
+  border-radius: 50%;
+}
+#content .object .context {
+  float: left;
+  color: #666;
+  width: 450px;
+  min-height: 40px;
+  margin: 10px 0 10px 0px;
+  padding: 20px;
+  line-height: 1.5em;
+}
+/*contentEvent*/
+#contentEvent {
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  padding-top: 20px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#contentEvent::-webkit-scrollbar {
+  width: 6px;
+  background-color: #EBEBEB;
+}
+#contentEvent::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+}
+#contentEvent .object {
+  width: 100%;
+}
+#contentEvent .object:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}
+#contentEvent .object .date {
+  float: left;
+  width: 160px;
+  height: 40px;
+  margin: 20px;
+  background-color: #f1c40f;
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 1em;
+  font-size: 1em;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+}
+#contentEvent .object .circle {
+  position: relative;
+  float: left;
+  z-index: 10;
+  margin: 30px 0 0 -10px;
+  width: 20px;
+  height: 20px;
+  background-color: #23b912;
+  border-radius: 50%;
+}
+#contentEvent .object .context {
+  float: left;
+  color: #666;
+  width: 250px;
+  min-height: 40px;
+  margin: 10px 0 10px 0px;
+  padding: 20px;
+  line-height: 1.5em;
+}
+/*contentInternship*/
+#contentInternship {
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  padding-top: 20px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#contentInternship::-webkit-scrollbar {
+  width: 6px;
+  background-color: #EBEBEB;
+}
+#contentInternship::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+}
+#contentInternship .object {
+  width: 100%;
+}
+#contentInternship .object:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}
+#contentInternship .object .date {
+  float: left;
+  width: 160px;
+  height: 40px;
+  margin: 20px;
+  background-color: #f1c40f;
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 1em;
+  font-size: 1em;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+}
+#contentInternship .object .circle {
+  position: relative;
+  float: left;
+  z-index: 10;
+  margin: 30px 0 0 -10px;
+  width: 20px;
+  height: 20px;
+  background-color: #23b912;
+  border-radius: 50%;
+}
+#contentInternship .object .context {
+  float: left;
+  color: #666;
+  width: 250px;
+  min-height: 40px;
+  margin: 10px 0 10px 0px;
+  padding: 20px;
+  line-height: 1.5em;
+}
+/*contentAdherent*/
+#contentAdherent {
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  padding-top: 20px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#contentAdherent::-webkit-scrollbar {
+  width: 6px;
+  background-color: #EBEBEB;
+}
+#contentAdherent::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+}
+#contentAdherent .object {
+  width: 100%;
+}
+#contentAdherent .object:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}
+#contentAdherent .object .date {
+  float: left;
+  width: 160px;
+  height: 40px;
+  margin: 20px;
+  background-color: #f1c40f;
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 1.9em;
+  font-size: 1.4em;
+}
+#contentAdherent .object .circle {
+  position: relative;
+  float: left;
+  z-index: 10;
+  margin: 30px 0 0 -10px;
+  width: 20px;
+  height: 20px;
+  background-color: #23b912;
+  border-radius: 50%;
+}
+#contentAdherent .object .context {
+  float: left;
+  color: #666;
+  width: 250px;
+  min-height: 40px;
+  margin: 10px 0 10px 0px;
+  padding: 20px;
+  line-height: 1.5em;
+}
+
+
+/*-------*/
+@import url(http://fonts.googleapis.com/css?family=Roboto:300);
+
+$color-primary: #23b912;
+$color-secondary: #f1c40f;
+
+html, body{
+  padding: 0;
+  margin: 0;
+  font-family: Roboto;
+  background-color: #eee;
+}
+
+
+.line{
+  position: absolute;
+  z-index: 0;
+  top: 50px;
+  left: 200px;
+  height: calc(100% + 200px);
+  width: 0px;
+  border-right: 1px solid $color-secondary;
+}
+
+section {
+  width: 100%;
+}
+.fa:active{
+ color: white;
+}
+.fa.hover{
+  color: white;
+}
+div#bandeau {
+	width:600px;
+  height: 100%;
+	height:100%;
+  padding: 50px 30px 50px 80px;
+	background-color:#e6f7e5;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3)
+	}
+</style>
