@@ -427,7 +427,7 @@ pre.prettyprint {
     color: #23b912!important
 }
 .light-blue {
-    color: #2ff3ea!important
+    color: transparent!important
 }
 .green {
     color: #69aa46!important
@@ -18718,6 +18718,12 @@ input.typeahead.scrollable~.tt-dropdown-menu {
 .no-skin .navbar .navbar-toggle:hover {
     background-color: #f7f244;
     border-color: rgba(255, 255, 255, .1)
+}
+.no-skin .navbar .navbar-toggle.display,
+.no-skin .navbar .navbar-toggle[data-toggle=collapse]:not(.collapsed) {
+    background-color: #23B912;
+    box-shadow: inset 1px 1px 2px 0 rgba(0, 0, 0, .25);
+    border-color: rgba(255, 255, 255, .35)
 }
 .no-skin .navbar .navbar-toggle.display,
 .no-skin .navbar .navbar-toggle[data-toggle=collapse]:not(.collapsed) {
