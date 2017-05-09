@@ -1868,7 +1868,7 @@ i {
     line-height: inherit
 }
 i.left {
-    float: left;
+    float: right;
     margin-right: 15px
 }
 i.right {
