@@ -65,7 +65,7 @@
     color: #F44336 !important
 }
 .red.lighten-5 {
-    background-color: #FFEBEE !important
+    background-color: #e33d31 !important
 }
 .red-text.text-lighten-5 {
     color: #FFEBEE !important
@@ -814,15 +814,6 @@
 .teal-text.text-accent-4 {
     color: #00bfa5 !important
 }
-.asfar{
-    color: #f7f244!important
-}
-.ahmar{
-    color: #e33d31!important
-}
-.akhthar{
-    color: #23b912!important
-}
 .green {
     background-color: #4CAF50 !important
 }
@@ -830,7 +821,7 @@
     color: #4CAF50 !important
 }
 .green.lighten-5 {
-    background-color: #E8F5E9 !important
+    background-color: #23b912 !important
 }
 .green-text.text-lighten-5 {
     color: #E8F5E9 !important
@@ -1082,7 +1073,7 @@
     color: #ffeb3b !important
 }
 .yellow.lighten-5 {
-    background-color: #fffde7 !important
+    background-color: #f7f244 !important
 }
 .yellow-text.text-lighten-5 {
     color: #fffde7 !important
