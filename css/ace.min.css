@@ -427,7 +427,7 @@ pre.prettyprint {
     color: #23b912!important
 }
 .light-blue {
-    color: #2ff3ea!important
+    color: transparent!important
 }
 .green {
     color: #69aa46!important
@@ -461,6 +461,15 @@ pre.prettyprint {
 }
 .light-grey {
     color: #bbb!important
+}
+.asfar{
+    color: #f7f244!important
+}
+.ahmar{
+    color: #e33d31!important
+}
+.akhthar{
+    color: #23b912!important
 }
 .bigger-110 {
     font-size: 110%!important
