@@ -2514,7 +2514,7 @@ nav ul a span.badge {
     right: auto
 }
 .row .col.s2 {
-    width: 33.33333333%;
+    width: 33.333333%;
     margin-left: auto;
     left: auto;
     right: auto
@@ -2601,10 +2601,10 @@ nav ul a span.badge {
     margin-left: 20%
 }
 .row .col.pull-s3 {
-    right: 20%
+    right: 25%
 }
 .row .col.push-s3 {
-    left: 20%
+    left: 25%
 }
 .row .col.offset-s4 {
     margin-left: 33.3333333333%
