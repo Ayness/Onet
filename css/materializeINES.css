@@ -2514,7 +2514,7 @@ nav ul a span.badge {
     right: auto
 }
 .row .col.s2 {
-    width: 20%;
+    width: 33.33333333%;
     margin-left: auto;
     left: auto;
     right: auto
@@ -2589,7 +2589,7 @@ nav ul a span.badge {
     left: 8.3333333333%
 }
 .row .col.offset-s2 {
-    margin-left: 20%
+    margin-left: 16.6666666667%
 }
 .row .col.pull-s2 {
     right: 16.6666666667%
@@ -2598,13 +2598,13 @@ nav ul a span.badge {
     left: 16.6666666667%
 }
 .row .col.offset-s3 {
-    margin-left: 33.333333333%
+    margin-left: 20%
 }
 .row .col.pull-s3 {
-    right: 25%
+    right: 20%
 }
 .row .col.push-s3 {
-    left: 25%
+    left: 20%
 }
 .row .col.offset-s4 {
     margin-left: 33.3333333333%
