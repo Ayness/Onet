@@ -1,4 +1,12 @@
 <style type="text/css">
+.circular {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(http://link-to-your/image.jpg) no-repeat;
+	}
 .form-style-5{
     max-width: 500px;
     padding: 10px 20px;
