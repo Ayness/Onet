@@ -1,4 +1,14 @@
 <style type="text/css">
+.input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
+}
 .circular {
 	width: 300px;
 	height: 300px;
@@ -95,14 +105,14 @@
     position: relative;
     display: block;
     padding: 19px 39px 18px 39px;
-    color: #f7f244;
+    color: #ffeb3b;
     margin: 0 auto;
     background: #e33d31;
     font-size: 18px;
     text-align: center;
     font-style: normal;
     width: 100%;
-    border: 1px solid #f7f244;
+    border: 1px solid #ffeb3b;
     border-width: 1px 1px 3px;
     margin-bottom: 10px;
 }
@@ -159,7 +169,7 @@ section {
 .headerEvent {
   width: 100%;
   height: 250px;
-  background-color: #f7f244;
+  background-color: #ffeb3b;
   overflow: hidden;
 }
 .headerEvent .circle {
