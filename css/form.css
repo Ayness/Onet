@@ -1,4 +1,9 @@
 <style type="text/css">
+#all_text span
+{
+    text-decoration:underline;
+    background-color:yellow;    
+}
 .input[type=text] {
     width: 130px;
     -webkit-transition: width 0.4s ease-in-out;
