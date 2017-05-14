@@ -65,7 +65,7 @@
     color: #F44336 !important
 }
 .red.lighten-5 {
-    background-color: #e33d31 !important
+    background-color: #ef5350 !important
 }
 .red-text.text-lighten-5 {
     color: #FFEBEE !important
@@ -143,7 +143,7 @@
     color: #D50000 !important
 }
 .pink {
-    background-color: #e33d31 !important
+    background-color: #ef5350 !important
 }
 .pink-text {
     color: #e91e63 !important
@@ -821,7 +821,7 @@
     color: #4CAF50 !important
 }
 .green.lighten-5 {
-    background-color: #23b912 !important
+    background-color: #00c853 !important
 }
 .green-text.text-lighten-5 {
     color: #E8F5E9 !important
@@ -1073,7 +1073,7 @@
     color: #ffeb3b !important
 }
 .yellow.lighten-5 {
-    background-color: #ffeb3b !important
+    background-color: #f7f244 !important
 }
 .yellow-text.text-lighten-5 {
     color: #fffde7 !important
@@ -2598,7 +2598,7 @@ nav ul a span.badge {
     left: 16.6666666667%
 }
 .row .col.offset-s3 {
-    margin-left: 30%
+    margin-left: 33.33333%
 }
 .row .col.pull-s3 {
     right: 33.3333%
@@ -7209,7 +7209,7 @@ button.picker__close:focus {
     }
 }
 body {
-    background-color: transparent
+    background-color: #e4e6e9
 }
 p.box {
     padding: 20px
