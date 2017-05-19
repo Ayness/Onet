@@ -5631,12 +5631,12 @@ fieldset[disabled] .btn-danger.active {
 .btn-inverse,
 .btn-inverse:focus {
     background-color: #00c853!important;
-    border-color: #1c8a0f
+    border-color: #399e64
 }
 .btn-inverse:hover,
 .btn-inverse:active,
 .open>.btn-inverse.dropdown-toggle {
-    background-color: #1c7b12!important;
+    background-color: #399e64!important;
     border-color: #555
 }
 .btn-inverse.no-border:hover,
