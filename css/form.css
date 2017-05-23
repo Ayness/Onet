@@ -1,4 +1,9 @@
 <style type="text/css">
+.marquee {
+    color: blue;
+    white-space: nowrap;
+    -webkit-animation: rightThenLeft 4s linear;
+}
 .input[type=text] {
     width: 130px;
     -webkit-transition: width 0.4s ease-in-out;
