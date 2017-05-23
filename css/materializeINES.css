@@ -5464,6 +5464,7 @@ select.browser-default {
     display: block
 }
 select {
+    display : none;
     background-color: rgba(255, 255, 255, 0.9);
     width: 100%;
     padding: 5px;
