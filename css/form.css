@@ -388,7 +388,7 @@ section {
 #content .object .context {
   float: left;
   color: #666;
-  width: 450px;
+  width: 600px;
   min-height: 40px;
   margin: 10px 0 10px 0px;
   padding: 20px;
@@ -445,7 +445,7 @@ section {
 #contentEvent .object .context {
   float: left;
   color: #666;
-  width: 250px;
+  width: 600px;
   min-height: 40px;
   margin: 10px 0 10px 0px;
   padding: 20px;
@@ -502,7 +502,7 @@ section {
 #contentInternship .object .context {
   float: left;
   color: #666;
-  width: 250px;
+  width: 600px;
   min-height: 40px;
   margin: 10px 0 10px 0px;
   padding: 20px;
